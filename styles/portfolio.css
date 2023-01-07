@@ -111,14 +111,16 @@
     
 }
 .section-tittle{
-    line-break: 16px;
+    
     text-align: center;
     font-size: 100px;
     justify-content: center;
-    margin-left: 50%;
-    margin-right: 50%;
+    align-items: center;
+    margin-left: 30%;
+    
     
 }
+
 .plans-container{
     display: flex;
     gap: 16px;
@@ -184,12 +186,8 @@
 
 
 }
-.contact{
-    
-    display: flex;
-    background-color: black;
-    color: white;
-}
+
+
 .vedio-section{
     text-align: center;
     display: flex;
@@ -205,13 +203,24 @@
 }
 /* contact-section */
 .contact{
-    padding-left: 20%;
+    display: flex;
+    padding-left:20% ;
     padding-right: 20%;
+    
+    background-color: black;
+    color: white;
+    
 }
 .section-tittle{
+    margin-right: 50%;
     font-size: 20px;
     text-align: left;
+    
+    
 }
 .section-description{
     font-size: 10px;
+}
+.btn-primary{
+    text-align: left;
 }
