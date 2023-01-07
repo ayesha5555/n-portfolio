@@ -106,20 +106,23 @@
     padding-right: 100px;
     padding-left: 100px;
     margin-top: 100px;
+    text-align: center;
     
     
 }
 .section-tittle{
     line-break: 16px;
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     justify-content: center;
+    margin-left: 50%;
+    margin-right: 50%;
     
 }
 .plans-container{
     display: flex;
-    gap: 24px;
-    margin: ;
+    gap: 16px;
+    
 }
 .plans{
     text-align: center;
@@ -148,16 +151,17 @@
     gap: 24px;
     width: 1130px;
     height: 300px;
-    padding: 59px 617px 64px;
+    padding: 59px 60px 64px;
+    margin-top: 100px;
 }
 .mindset-tittle{
     font-weight: 600;
-    font-style: normal;
+    
     font-size: 40px;
     color: #FFFFFF;
-    line-height: 47px;
+    
     text-align: left;
-    padding: 59px 600px 140px 66px;
+    
 
 }
 .mind-button{
@@ -181,8 +185,7 @@
 
 }
 .contact{
-    margin-left: 500px;
-    margin-right: 500px;
+    
     display: flex;
     background-color: black;
     color: white;
@@ -199,4 +202,16 @@
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+}
+/* contact-section */
+.contact{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.section-tittle{
+    font-size: 20px;
+    text-align: left;
+}
+.section-description{
+    font-size: 10px;
 }
